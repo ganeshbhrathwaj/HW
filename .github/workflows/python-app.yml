@@ -25,5 +25,5 @@ jobs:
         python-version: "3.10"
     
     - name: Hello World
-      run: python ${{ env.DEVOPS_DIR }}/HW.py
+      run: python HW.py
       shell: sh
