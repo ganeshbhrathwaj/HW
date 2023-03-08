@@ -6,6 +6,9 @@ name: Python application
 
 on:push
 
+env:
+  DEVOPS_DIR: HW
+
 permissions:
   contents: read
 
